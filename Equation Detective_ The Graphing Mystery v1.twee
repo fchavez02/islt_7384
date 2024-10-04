@@ -1,0 +1,232 @@
+:: StoryTitle
+Equation Detective: The Graphing Mystery v1
+
+
+:: StoryData
+{
+  "ifid": "BBC62B6C-5A25-4DB3-B211-73F4EB128B62",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Scene 1:Introduction",
+  "zoom": 1
+}
+
+
+:: \ (0,0 {"position":"2700,500","size":"100,100"}
+//You miscalculate the system and struggle to open the container, but you’re given another chance to solve it before the thief escapes.//
+
+[[Final Puzzle]] 
+
+
+:: \ (0,10) {"position":"1300,375","size":"100,100"}
+//Not quite! You followed the wrong train route and arrived late. Agent Holmes insists you to solve the equations correctly and get to downtown as quickly as possible. //
+
+[[Scene 3]] 
+
+
+:: \ (1,-10) {"position":"2700,250","size":"100,100"}
+//Please try again, Detective! You incorrectly solved the system and failed to open the container. Luckily, Agent Holmes believes in you, and gives you another chance to solve it before the thief gets away with this forever.//
+
+[[Final Puzzle]] 
+
+
+:: \ (1,3)\  {"position":"800,350","size":"100,100"}
+Nice try! You choose the wrong route and follow a dead end which resulted in wasting time. Agent Holmes calls you, and tells you you to double-check your work!
+
+[[Scene 2: Rising Action]] 
+
+
+:: \ (1,5) {"position":"800,150","size":"100,100"}
+//Nice work, detective! The thief took the left route! You correctly graphed the system of equations, and found the point of intersection at (1,5). This path takes you to the train station which is where you will find your next clue !//
+
+[[Scene 2: Rising Action]] 
+
+
+:: \ (2,10) {"position":"1300,150","size":"100,100"}
+//Nice job, Detective! You chose the correct train! You solve the puzzle and found the intersection at (2,10). This route leads to downtown which is just in time to see another witness that might have seen the thief.//
+
+[[Scene 3]] 
+
+
+:: \ (2,6) {"position":"1775,150","size":"100,100"}
+Excellent job, Detective! The correct location is the warehouse! You graphed and found the intersection at (2,6). You and Agent Holmes run to the warehouse, and this is where you discover the thief's hideout.
+
+[[Scene 4: Climax]] 
+
+
+:: (-10,1) {"position":"2700,375","size":"100,100"}
+//Please try again, Detective! You incorrectly solved the system and failed to open the container. Luckily, Agent Holmes believes in you, and gives you another chance to solve it before the thief gets away with this forever.//
+
+[[Final Puzzle]] 
+
+
+:: (-3,-12) {"position":"2250,350","size":"100,100"}
+Nice try! You calculations were off, and the thief escapes. Agent Holmes tells you to try again and graph the system correctly.
+
+[[Scene 5: Falling Action]] 
+
+
+:: (1,10) {"position":"2700,125","size":"100,100"}
+FANTASTIC JOB, DETECTIVE! You'ved unlocked the container just in time by finding the solution (1,10). The stolen artwork has been recovered, and the thief has now been captured.
+
+[[Conclusion (Resolution)]] 
+
+
+:: (3,12) {"position":"2250,175","size":"100,100"}
+//Great work, Detective! The correctly solved the system! You graphed the system and found the intersection at (3,12). You run to the docks to since you learn that the thief is looking to escaape by boarding a boat. You trap them just in time!//
+
+[[Scene 5: Falling Action]] 
+
+
+:: (6,2) {"position":"1775,350","size":"100,100"}
+//Try again! You followed the clue to get to the park and find nothing. You actually found a false clue that was left begind by the thief! Once you realize this, you head towards the warehouse.//
+
+[[Scene 4: Climax]] 
+
+
+:: Conclusion (Resolution) {"position":"2850,275","size":"100,100"}
+Back at the police station, Agent Holmes is blown away by your work in this case and congratulates you on solving the case. The stolen artwork is returned to the museum, and the thief is now in jail. As you think about this journey, you will realize how solving systems of equations helped you solve the mystery while being one step ahead of the thief.
+
+''Agent Holmes: ''
+"Well done, detective! You demonstrated your sharp skills by solving puzzles and catching thieves. I will certainly be giving you a call back for the next case!"
+
+''The End.''
+(button:)[[Scene 1:Introduction]] 
+
+
+
+
+:: Final Puzzle {"position":"2525,250","size":"100,100"}
+//The lock is a combination of two equations. You need to solve them to retrieve the painting.//
+
+''Clue 5:''
+
+Equation 1:  -3x + y = 7
+Equation 2:   2x+ y = 12
+
+''Decision: Solve the final system.''
+
+Answer Choices:
+[[ (0,0]]
+[[(-10,1)]]
+[[ (1,-10)]]
+[[(1,10)]]
+
+
+:: Puzzle 1 {"position":"600,275","size":"100,100"}
+//Puzzle 1: You receive two clues about the thief’s escape path.//
+
+Witness 1 says the thieft took a left, which can be seen in the following system:
+Equation 1: y = 2x + 3
+Equation 2: y = -x + 5
+
+Witness 2 says the thieft took a right, which can be seen in the following system:
+Equation 1: y = x - 1
+Equation 2: y = -2x + 7
+
+''Decision: Graph both systems of equations. Find the point of intersection to determine the correct escape route.''
+
+Answer choices: 
+[[ (1,5)]]
+[[ (1,3) ]]
+
+
+
+
+:: Puzzle 2 {"position":"1150,250","size":"100,100"}
+//The ticket you found shows two possible routes to downtown, each train describes the train’s path.//
+
+''Puzzle 2:''
+
+''Route A:''
+Equation 1: y = 4x + 2
+Equation 2: y = -x + 10
+
+''Route B:''
+Equation 1: y = 3x + 6
+Equation 2: y = 2x + 4
+
+Decision: Solve the system to determine which route the thief took.
+
+Answer Choices:
+[[ (2,10)]]
+[[ (0,10)]]
+
+
+
+:: Puzzle 3 {"position":"1600,250","size":"100,100"}
+//The coffee shop worker gives you two potential sets of coordinates. We know that the thief went to one of these location. It is your job to figure out the thief's exact location.//
+
+''Clue 3:''
+
+''Park Route:''
+Equation 1: y = 2x + 1
+Equation 2: y = -x + 7
+
+''Warehouse Route:''
+Equation 1: y = 3x - 2
+Equation 2: y = x + 4
+
+//Decision: Solve the system to decide where the theift is heading next.//
+
+Answer choices:
+[[ (2,6)]]
+[[(6,2)]]
+
+
+
+:: Puzzle 4 {"position":"2100,250","size":"100,100"}
+//During the chase, the thief panics and throws away their phone, and you happen to find it. It contains the following system of equations representing their escape route.//
+
+''Clue 4:''
+
+''Escape Path:''
+Equation 1: y = 5x - 3
+Equation 2: y = 2x + 4
+
+//Decision: Solve the system of equations to figure out where the thief will go next.//
+
+Answer choices:
+[[(3,12)]]
+[[(-3,-12)]]
+
+
+
+:: Scene 1:Introduction {"position":"425,275","size":"100,100"}
+//You arrive at the busy crime scene outside the town's museum. You hear police sirens in the far distance, and Agent Holmes, a well-known detective, approaches you.//
+
+Agent Holmes:
+“Welcome, detective! We’ve got a serious case to solve. The famous painting ‘The Golden Ratio’ was stolen last night, and we need //your// help to act quicly before the thief gets away with this. Throughout your long journey, you will need to talk to the witnesses and gather clues.”
+
+//You begin to look around, and you see two witnesses talking to other agents. Each one says that they have seen the thief leaving the museum with the artwork. They each give you a description, but they don’t match. You realize that you don't know who is telling the truth, and have to figure it out yourself. All the clues that the witnesses give you are clues in the form of systems of linear equations that you have to solve..//
+
+ Let's Begin! 
+ (button:) [[Puzzle 1]] 
+
+
+
+Author: Felipe Chavez
+
+
+:: Scene 2: Rising Action {"position":"975,250","size":"100,100"}
+//At the train station, you look for any signs of the thief. You find a train ticket which gives you a clue to where the theif is heading next, downtown. Your job is to figure out which train they took.//
+
+[[Puzzle 2]] 
+
+
+:: Scene 3 {"position":"1450,250","size":"100,100"}
+//At the downtown area, you head into a busy coffee shop where the worker thinks that she overheard the thief talking on the phone about two locations, the nearby park and an abandoned warehouse. To figure out where the thieft went next, you need to investigate the coordinates left behind.//
+
+[[Puzzle 3]] 
+
+
+:: Scene 4: Climax {"position":"1925,250","size":"100,100"}
+//While inside the old and abandoned warehouse, you find the stolen painting! It was hidden beneath a hidden wall. Once you think you've gotten away with finding th thief, you hear footsteps. The thief runs out from the back, and another chase throught the story begins!//
+
+[[Puzzle 4]] 
+
+
+:: Scene 5: Falling Action {"position":"2375,250","size":"100,100"}
+//While you are at the docks, you finally catch up to the thief. The problem now is that they’ve hidden the stolen artwork in a shipping container. We found the shipping container, but it’s locked! You need to solve one last puzzle to unlock the container and capture the thief.//
+
+[[Final Puzzle]] 
